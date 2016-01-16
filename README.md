@@ -10,7 +10,7 @@ BREAK_COUNT = 0
 
 print("This program started on" + time.ctime())
 while (BREAK_COUNT < TOTAL_BREAKS):
-    `# Change time to how often you want the browser to open`
+    # Change time to how often you want the browser to open
     time.sleep(2*60*60)
     # Place any URL below
     webbrowser.open("https://www.youtube.com/watch?v=j5-yKhDd64s")
